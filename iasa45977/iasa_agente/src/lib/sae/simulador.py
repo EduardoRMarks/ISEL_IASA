@@ -17,7 +17,7 @@ from .controlador.controlador_simul import ControladorSimul
 # Configuração por omissão
 LARGURA = 600
 """Largura do ambiente em pixeis"""
-FPS = 20
+FPS = 60
 """Taxa de actualização da imagem"""
 
 #_____________________________________________________________

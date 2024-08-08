@@ -7,7 +7,7 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from pee.mec_proc.fronteira.fronteira import Fronteira
+from src.lib.pee.mec_proc.fronteira.fronteira import Fronteira
 
 """
 Classe FronteiraLIFO

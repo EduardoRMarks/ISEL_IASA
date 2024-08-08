@@ -7,7 +7,7 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from mod.estado import Estado
+from src.lib.mod.estado import Estado
 
 """
 Classe EstadoLocalidade que é um tipo de Estado no contexto do problema, ou seja, uma

@@ -8,8 +8,8 @@ Docente Paulo Vieira
 """
 
 from abc import ABC, abstractmethod
-from pee.mec_proc.no import No
-from pee.mec_proc.solucao import Solucao
+from src.lib.pee.mec_proc.no import No
+from src.lib.pee.mec_proc.solucao import Solucao
 
 """
 Classe abstrata MecanismoProcura

@@ -1,6 +1,6 @@
-from controlo_delib.controlo_delib import ControloDelib
-from plan.plan_pee.planeador_pee import PlaneadorPEE
-from sae.simulador import Simulador
+from src.controlo_delib.controlo_delib import ControloDelib
+from src.lib.plan.plan_pee.planeador_pee import PlaneadorPEE
+from src.lib.sae import Simulador
 
 planeador = PlaneadorPEE()
 

@@ -8,7 +8,7 @@ Docente Paulo Vieira
 """
 
 from heapq import heappush, heappop
-from pee.mec_proc.fronteira.fronteira import Fronteira
+from src.lib.pee.mec_proc.fronteira.fronteira import Fronteira
 
 """
 Classe FronteiraPrioridade

@@ -8,8 +8,8 @@ Docente Paulo Vieira
 """
 
 
-from ecr.resposta import Resposta
-from sae import Accao
+from src.lib.ecr.resposta import Resposta
+from src.lib.sae import Accao
 
 """
 Classe RespostaMover

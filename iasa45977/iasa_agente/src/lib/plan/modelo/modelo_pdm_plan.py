@@ -7,8 +7,8 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from pdm.modelo.modelo_pdm import ModeloPDM
-from plan.modelo.modelo_plan import ModeloPlan
+from src.lib.pdm.modelo.modelo_pdm import ModeloPDM
+from src.lib.plan.modelo.modelo_plan import ModeloPlan
 
 """
 Classe ModeloPDMPlan que implementa as interfaces ModeloPlan e ModeloPDM, logo, implementa

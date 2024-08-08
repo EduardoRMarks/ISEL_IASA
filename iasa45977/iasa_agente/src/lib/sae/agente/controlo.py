@@ -5,8 +5,6 @@ Controlo de agente
 
 from abc import ABC, abstractmethod
 
-from sae.vistas.vista_amb import VistaAmb
-
 #_______________________________________________________________________________
 
 class Controlo(ABC):

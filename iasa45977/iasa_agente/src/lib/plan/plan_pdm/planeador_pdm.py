@@ -7,10 +7,10 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from pdm.pdm import PDM
-from plan.modelo.modelo_pdm_plan import ModeloPDMPlan
-from plan.plan_pdm.plano_pdm import PlanoPDM
-from plan.planeador import Planeador
+from src.lib.pdm.pdm import PDM
+from src.lib.plan.modelo.modelo_pdm_plan import ModeloPDMPlan
+from src.lib.plan.plan_pdm.plano_pdm import PlanoPDM
+from src.lib.plan.planeador import Planeador
 
 """
 Classe PlaneadorPDM que implementa a interface Planeador, ou seja, é um tipo de planeador.

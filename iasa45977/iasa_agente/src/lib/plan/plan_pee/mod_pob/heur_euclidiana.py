@@ -8,7 +8,7 @@ Docente Paulo Vieira
 """
 
 from math import sqrt
-from pee.melhor_prim.heuristica import Heuristica
+from src.lib.pee.melhor_prim.heuristica import Heuristica
 
 """
 Classe HeurEuclidiana (Heuristica Distância) que implementa a interface Heuristica.

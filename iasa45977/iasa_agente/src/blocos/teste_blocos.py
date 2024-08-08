@@ -7,12 +7,12 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from blocos.mod_prob.movimento import Movimento
-from blocos.mod_prob.planeador_mov import PlaneadorMov
-from blocos.mod_prob.vista_trajecto import VistaProjecto
+from mod_prob.movimento import Movimento
+from mod_prob.planeador_mov import PlaneadorMov
+from mod_prob.vista_trajecto import VistaProjecto
+
 
 def main():
-
     MOVIMENTOS = [
         Movimento("Desempilhar", 1),
         Movimento("Desempilhar", 2),
@@ -22,9 +22,10 @@ def main():
 
     PILHA_INI = [[2, 3, 1], [], []]
     PILHA_FIN = [[1, 2, 3], [], []]
-    
+
     solucao, mec_proc = PlaneadorMov().planear(MOVIMENTOS, PILHA_INI, PILHA_FIN)
     VistaProjecto().mostrar(solucao, mec_proc)
+
 
 if __name__ == "__main__":
     main()

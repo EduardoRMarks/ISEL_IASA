@@ -8,9 +8,9 @@ Docente Paulo Vieira
 """
 
 import random
-from controlo_react.reaccoes.resposta.resposta_mover import RespostaMover
-from ecr.comportamento import Comportamento
-from sae.ambiente.direccao import Direccao
+from src.controlo_react.reaccoes.resposta.resposta_mover import RespostaMover
+from src.lib.ecr.comportamento import Comportamento
+from src.lib.sae.ambiente.direccao import Direccao
 
 """
 Classe Explorar

@@ -7,9 +7,9 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from plan_traj.apresent.vista_trajecto import VistaProjecto
-from plan_traj.planeador.ligacao import Ligacao
-from plan_traj.planeador.planeador_trajecto import PlaneadorTrajecto
+from src.plan_traj.apresent.vista_trajecto import VistaProjecto
+from src.plan_traj.planeador.ligacao import Ligacao
+from src.plan_traj.planeador.planeador_trajecto import PlaneadorTrajecto
 
 
 def main():

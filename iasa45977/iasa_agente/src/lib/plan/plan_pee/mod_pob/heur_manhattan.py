@@ -7,7 +7,7 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from pee.melhor_prim.heuristica import Heuristica
+from src.lib.pee.melhor_prim.heuristica import Heuristica
 
 """
 Classe HeurManhattan (Heuristica Distância) que implementa a interface Heuristica.

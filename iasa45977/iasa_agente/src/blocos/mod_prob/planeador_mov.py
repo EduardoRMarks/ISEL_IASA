@@ -7,12 +7,13 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from blocos.mod_prob.estado_bloco import EstadoBloco
-from blocos.mod_prob.heur_bloco import HeurBloco
-from blocos.mod_prob.problema_bloco import ProblemaBloco
-from pee.melhor_prim.procura_aa import ProcuraAA
-from pee.melhor_prim.procura_custo_unif import ProcuraCustoUnif
-from plan.planeador import Planeador
+from src.blocos.mod_prob.estado_bloco import EstadoBloco
+from src.blocos.mod_prob.heur_bloco import HeurBloco
+from src.blocos.mod_prob.problema_bloco import ProblemaBloco
+from src.lib.pee.melhor_prim.procura_aa import ProcuraAA
+from src.lib.pee.melhor_prim.procura_aa import ProcuraAA
+from src.lib.pee.melhor_prim.procura_custo_unif import ProcuraCustoUnif
+from src.lib.plan.planeador import Planeador
 
 """
 Classe PlaneadorMov que implementa a Interface Planeador.
@@ -25,8 +26,8 @@ mostrar o caminho percorrido para chegar ao destino ou, caso não exista uma sol
 a informar que não existe caminho possível.
 """
 
-class NPlaneadorMov(Planeador):
 
+class PlaneadorMov(Planeador):
     """
     Método planear da classe PlanearMov implementada a partir da classe abstrata planear da interfce Planeador.
 
@@ -45,7 +46,6 @@ class NPlaneadorMov(Planeador):
     """
 
     def planear(self, movimentos, b_init, b_fin):
-
         problema = ProblemaBloco(movimentos, b_init, b_fin)
         mecanismo_proc = ProcuraAA()
         heuristica = HeurBloco(b_fin)
@@ -55,5 +55,5 @@ class NPlaneadorMov(Planeador):
         """problema = ProblemaBloco(movimentos, b_init, b_fin)
         mecanismo_proc = ProcuraCustoUnif()
         solucao = mecanismo_proc.procurar(problema)"""
-        
+
         return solucao, mecanismo_proc

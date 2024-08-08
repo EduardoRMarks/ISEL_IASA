@@ -7,9 +7,9 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from mod.problema.problema import Problema
-from plan_traj.mod_prob.estado_localidade import EstadoLocalidade
-from plan_traj.mod_prob.operador_ligacao import OperadorLigacao
+from src.lib.mod.problema.problema import Problema
+from src.plan_traj.mod_prob.estado_localidade import EstadoLocalidade
+from src.plan_traj.mod_prob.operador_ligacao import OperadorLigacao
 
 """
 Classe ProblemaPlanTraj que extende de Problema.

@@ -7,8 +7,8 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from pee.mec_proc.fronteira.fronteira_fifo import FronteiraFIFO
-from pee.mec_proc.procura_grafo import ProcuraGrafo
+from src.lib.pee.mec_proc.fronteira.fronteira_fifo import FronteiraFIFO
+from src.lib.pee.mec_proc.procura_grafo import ProcuraGrafo
 
 """
 Classe ProcurarLargura que extende da classe ProcuraGarfo.

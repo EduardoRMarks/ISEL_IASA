@@ -7,13 +7,13 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from pee.melhor_prim.procura_aa import ProcuraAA
-from plan.plan_pee.mod_prob.heur_dist import HeurDist
-from plan.plan_pee.mod_prob.heur_euclidiana import HeurEuclidiana
-from plan.plan_pee.mod_prob.heur_manhattan import HeurManhattan
-from plan.plan_pee.mod_prob.problema_plan import ProblemaPlan
-from plan.plan_pee.plano_pee import PlanoPEE
-from plan.planeador import Planeador
+from src.lib.pee.melhor_prim.procura_aa import ProcuraAA
+from src.lib.plan.plan_pee.mod_pob.heur_dist import HeurDist
+from src.lib.plan.plan_pee.mod_pob.heur_euclidiana import HeurEuclidiana
+from src.lib.plan.plan_pee.mod_pob.heur_manhattan import HeurManhattan
+from src.lib.plan.plan_pee.mod_pob.problema_plan import ProblemaPlan
+from src.lib.plan.plan_pee.plano_pee import PlanoPEE
+from src.lib.plan.planeador import Planeador
 
 """
 Classe PlaneadorPEE que implementa a interface Planeador, ou seja, é um tipo de planeador.

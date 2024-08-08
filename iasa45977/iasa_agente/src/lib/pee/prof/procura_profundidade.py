@@ -7,8 +7,8 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from pee.mec_proc.fronteira.fronteira_lifo import FronteiraLIFO
-from pee.mec_proc.mecanismo_procura import MecanismoProcura
+from src.lib.pee.mec_proc.fronteira.fronteira_lifo import FronteiraLIFO
+from src.lib.pee.mec_proc.mecanismo_procura import MecanismoProcura
 
 """
 Clase ProcuraProfundidade que extende da classe MecanismoProcura.

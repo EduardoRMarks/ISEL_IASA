@@ -7,9 +7,11 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from controlo_delib.mec_delib import MecDelib
-from controlo_delib.modelo.modelo_mundo import ModeloMundo
-from sae.agente.controlo import Controlo
+
+
+from src.controlo_delib.mec_delib import MecDelib
+from src.controlo_delib.modelo.modelo_mundo import ModeloMundo
+from src.lib.sae.agente.controlo import Controlo
 
 """
 Classe controloDelib (controlo deliberativo), é um tipo de controlo, ou seja, herda da classe Controlo.

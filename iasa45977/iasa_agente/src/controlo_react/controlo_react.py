@@ -6,8 +6,7 @@ Eduardo Marques 45977
 
 Docente Paulo Vieira
 """
-
-from sae import Controlo
+from src.lib.sae import Controlo
 
 """
 Classe ControloReact (Trabalha o controlo Reativo do agente)

@@ -7,10 +7,10 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from controlo_react.reaccoes.aproximar.aproximar_alvo import AproximarAlvo
-from controlo_react.reaccoes.evitar.evitar_obst import EvitarObst
-from controlo_react.reaccoes.explorar.explorar import Explorar
-from ecr.hierarquia import Hierarquia
+from src.controlo_react.reaccoes.aproximar.aproximar_alvo import AproximarAlvo
+from src.controlo_react.reaccoes.evitar.evitar_obst import EvitarObst
+from src.controlo_react.reaccoes.explorar.explorar import Explorar
+from src.lib.ecr.hierarquia import Hierarquia
 
 """
 Classe Recolher

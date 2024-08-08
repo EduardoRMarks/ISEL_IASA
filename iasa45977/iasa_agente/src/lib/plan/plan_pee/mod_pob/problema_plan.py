@@ -7,7 +7,7 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from mod.problema.problema import Problema
+from src.lib.mod.problema.problema import Problema
 
 """
 Classe ProblemaPlan que implementa a classe Problema.

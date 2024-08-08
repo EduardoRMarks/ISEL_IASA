@@ -7,9 +7,9 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from controlo_react.reaccoes.aproximar.aproximar_dir import AproximarDir
-from ecr.prioridade import Prioridade
-from sae.ambiente.direccao import Direccao
+from src.controlo_react.reaccoes.aproximar.aproximar_dir import AproximarDir
+from src.lib.ecr.prioridade import Prioridade
+from src.lib.sae.ambiente.direccao import Direccao
 
 """
 Classe AproximarAlvo

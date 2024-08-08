@@ -7,7 +7,7 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from pee.melhor_prim.procura_melhor_prim import ProcuraMelhorPrim
+from src.lib.pee.melhor_prim.procura_melhor_prim import ProcuraMelhorPrim
 
 """
 Classe ProcuraInformada, é um tipo de Procura Melhor-Primeiro.

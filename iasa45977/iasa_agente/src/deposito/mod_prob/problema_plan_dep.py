@@ -7,9 +7,9 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from deposito.mod_prob.estado_deposito import EstadoDeposito
-from deposito.mod_prob.operador_deposito import OperadorDeposito
-from mod.problema.problema import Problema
+from src.deposito.mod_prob.estado_deposito import EstadoDeposito
+from src.deposito.mod_prob.operador_deposito import OperadorDeposito
+from src.lib.mod.problema.problema import Problema
 
 
 class ProblemaPlanDep(Problema):

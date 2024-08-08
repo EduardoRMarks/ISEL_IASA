@@ -7,9 +7,9 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from blocos.mod_prob.estado_bloco import EstadoBloco
-from blocos.mod_prob.operador_bloco import OperadorBloco
-from mod.problema.problema import Problema
+from src.blocos.mod_prob.estado_bloco import EstadoBloco
+from src.blocos.mod_prob.operador_bloco import OperadorBloco
+from src.lib.mod.problema.problema import Problema
 
 """
 Classe ProblemaBloco que extende de Problema.

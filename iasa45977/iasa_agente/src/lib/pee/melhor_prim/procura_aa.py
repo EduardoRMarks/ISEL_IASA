@@ -8,8 +8,8 @@ Docente Paulo Vieira
 """
 
 
-from pee.melhor_prim.aval.avaliador_aa import AvaliadorAA
-from pee.melhor_prim.procura_informada import ProcuraInformada
+from src.lib.pee.melhor_prim.aval.avaliador_aa import AvaliadorAA
+from src.lib.pee.melhor_prim.procura_informada import ProcuraInformada
 
 """
 Classe ProcuraAA (procura a*), é um tipo de procura informada.

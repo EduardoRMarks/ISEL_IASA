@@ -6,11 +6,9 @@ Eduardo Marques 45977
 
 Docente Paulo Vieira
 """
-
-
-from controlo_react.reaccoes.aproximar.estimulo.estimulo_alvo import EstimuloAlvo
-from controlo_react.reaccoes.resposta.resposta_mover import RespostaMover
-from ecr.reaccao import Reaccao
+from src.controlo_react.reaccoes.aproximar.estimulo.estimulo_alvo import EstimuloAlvo
+from src.controlo_react.reaccoes.resposta.resposta_mover import RespostaMover
+from src.lib.ecr.reaccao import Reaccao
 
 """
 Classe AproximarDir

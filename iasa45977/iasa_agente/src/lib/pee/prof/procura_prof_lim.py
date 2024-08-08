@@ -7,7 +7,7 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from pee.prof.procura_profundidade import ProcuraProfundidade
+from src.lib.pee.prof.procura_profundidade import ProcuraProfundidade
 
 """
 Classe ProcuraProfLim que extende da classe ProcuraProfundidade.

@@ -6,12 +6,9 @@ Eduardo Marques 45977
 
 Docente Paulo Vieira
 """
-
-
-
-from deposito.apresent.vista_trajecto import VistaProjecto
-from deposito.planeador.depesv import DepEsv
-from deposito.planeador.planeador_deposito import PlaneadorDeposito
+from src.blocos.mod_prob.vista_trajecto import VistaProjecto
+from src.deposito.planeador.depesv import DepEsv
+from src.deposito.planeador.planeador_deposito import PlaneadorDeposito
 
 
 def main():

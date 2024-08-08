@@ -8,8 +8,8 @@ Docente Paulo Vieira
 """
 
 import random
-from controlo_react.reaccoes.resposta.resposta_mover import RespostaMover
-from sae.ambiente.direccao import Direccao
+from src.controlo_react.reaccoes.resposta.resposta_mover import RespostaMover
+from src.lib.sae.ambiente.direccao import Direccao
 
 """
 Classe RespostaEvitar

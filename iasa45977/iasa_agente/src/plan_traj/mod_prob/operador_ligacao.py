@@ -7,8 +7,8 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from mod.operador import Operador
-from plan_traj.mod_prob.estado_localidade import EstadoLocalidade
+from src.lib.mod.operador import Operador
+from src.plan_traj.mod_prob.estado_localidade import EstadoLocalidade
 
 """
 Classe OperadorLigacao que é um tipo de Operador, ou seja, implementa a interface Operador.

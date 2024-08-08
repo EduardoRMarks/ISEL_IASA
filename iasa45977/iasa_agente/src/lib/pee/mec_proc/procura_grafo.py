@@ -7,7 +7,7 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from pee.mec_proc.mecanismo_procura import MecanismoProcura
+from src.lib.pee.mec_proc.mecanismo_procura import MecanismoProcura
 
 """
 Classe ProcuraGarfo herdeira da classe MecanismoProcura.

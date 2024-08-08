@@ -8,9 +8,9 @@ Docente Paulo Vieira
 """
 
 import math
-from mod.agente.estado_agente import EstadoAgente
-from mod.operador import Operador
-from sae.agente.accao import Accao
+from src.lib.mod.agente.estado_agente import EstadoAgente
+from src.lib.mod.operador import Operador
+from src.lib.sae.agente.accao import Accao
 
 """
 Classe OperadorMover que é um tipo de operador, logo herda da interface Operador.

@@ -7,8 +7,8 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from deposito.mod_prob.estado_deposito import EstadoDeposito
-from mod.operador import Operador
+from src.deposito.mod_prob.estado_deposito import EstadoDeposito
+from src.lib.mod.operador import Operador
 
 
 class OperadorDeposito(Operador):

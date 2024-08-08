@@ -8,8 +8,8 @@ Docente Paulo Vieira
 """
 
 
-from pee.mec_proc.fronteira.fronteira_proridade import FronteiraPrioridade
-from pee.mec_proc.procura_grafo import ProcuraGrafo
+from src.lib.pee.mec_proc.fronteira.fronteira_proridade import FronteiraPrioridade
+from src.lib.pee.mec_proc.procura_grafo import ProcuraGrafo
 
 """
 Classe ProcuraMelhorPrim (PROCURA MELHOR-PRIMEIRO). É um mecanismo de procura do tipo de

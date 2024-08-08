@@ -7,7 +7,7 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from pee.melhor_prim.heuristica import Heuristica
+from src.lib.pee.melhor_prim.heuristica import Heuristica
 
 """
 Classe HeurBloco, é um tipo de heurística, logo implemente a interface Heuristica.

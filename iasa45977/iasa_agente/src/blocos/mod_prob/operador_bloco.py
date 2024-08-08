@@ -8,8 +8,8 @@ Docente Paulo Vieira
 """
 
 import copy
-from blocos.mod_prob.estado_bloco import EstadoBloco
-from mod.operador import Operador
+from src.blocos.mod_prob.estado_bloco import EstadoBloco
+from src.lib.mod.operador import Operador
 
 """
 Classe operadorBloco que é um tipo de operador, ou seja, implementa a interface Operador

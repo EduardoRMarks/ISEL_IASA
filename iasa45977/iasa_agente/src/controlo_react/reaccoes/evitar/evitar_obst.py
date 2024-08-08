@@ -7,10 +7,10 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from controlo_react.reaccoes.evitar.evitar_dir import EvitarDir
-from controlo_react.reaccoes.evitar.resposta.resposta_evitar import RespostaEvitar
-from ecr.hierarquia import Hierarquia
-from sae.ambiente.direccao import Direccao
+from src.controlo_react.reaccoes.evitar.evitar_dir import EvitarDir
+from src.controlo_react.reaccoes.evitar.resposta.resposta_evitar import RespostaEvitar
+from src.lib.ecr.hierarquia import Hierarquia
+from src.lib.sae.ambiente.direccao import Direccao
 
 """
 Classe EvitarObst

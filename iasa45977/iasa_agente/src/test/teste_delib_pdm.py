@@ -1,9 +1,6 @@
+from src.controlo_delib.controlo_delib import ControloDelib
+from src.lib.plan.plan_pdm.planeador_pdm import PlaneadorPDM
+from src.lib.sae import Simulador
 
-
-from controlo_delib.controlo_delib import ControloDelib
-from plan.plan_pdm.planeador_pdm import PlaneadorPDM
-from sae.simulador import Simulador
-
-
-controlo = ControloDelib(PlaneadorPDM())
-Simulador(3, controlo).executar()
+controlo = ControloDelib(PlaneadorPDM(gama=0.8, delta_max=2))
+Simulador(2, controlo).executar()

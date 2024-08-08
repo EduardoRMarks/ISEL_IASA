@@ -15,8 +15,8 @@ Classe que implementara a interface Estimulo e que tem como objectivo detetar um
 """
 
 
-from ecr.estimulo import Estimulo
-from sae.ambiente.elemento import Elemento
+from src.lib.ecr.estimulo import Estimulo
+from src.lib.sae.ambiente.elemento import Elemento
 
 
 class EstimuloAlvo(Estimulo):

@@ -6,8 +6,7 @@ Eduardo Marques 45977
 
 Docente Paulo Vieira
 """
-
-from mod.estado import Estado
+from src.lib.mod.estado import Estado
 
 """
 Classe EstadoBloco que é um tipo de Estado no contexto do problema, ou seja, o estado dos blocos em
@@ -16,8 +15,8 @@ cada uma das pilhas.
 Como herda da classe estado, irá concretizar o método abstrato id_valor().
 """
 
-class EstadoBloco(Estado):
 
+class EstadoBloco(Estado):
     """
     Propriedade read-only da classe EstadoBloco.
     Retorna a posição dos blocos nas pilhas, ex [[1], [3, 2], []].
@@ -26,7 +25,7 @@ class EstadoBloco(Estado):
     @property
     def blocos(self):
         return self._blocos
-    
+
     """
     Método construtor da classe EstadoBloco.
 
@@ -35,7 +34,7 @@ class EstadoBloco(Estado):
 
     @:param blocos
     """
-    
+
     def __init__(self, blocos):
         self._blocos = blocos
 
@@ -56,7 +55,7 @@ class EstadoBloco(Estado):
             self._blocos_tup.append(tuple(bloco))
 
         return hash(tuple(self._blocos_tup))
-    
+
     """
     Método que irá retornar o valor da pilha correspodente ao index recebido.
     
@@ -66,10 +65,10 @@ class EstadoBloco(Estado):
 
     def __getitem__(self, index):
         return self._blocos[index]
-    
+
     """
     Método que altera o output quando é invocado str() referente ao estado.
     """
-    
+
     def __repr__(self):
         return f'{self.blocos}'

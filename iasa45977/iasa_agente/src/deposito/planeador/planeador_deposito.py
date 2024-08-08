@@ -7,12 +7,12 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from deposito.mod_prob.problema_plan_dep import ProblemaPlanDep
-from pee.larg.procura_largura import ProcurarLargura
-from pee.melhor_prim.procura_custo_unif import ProcuraCustoUnif
-from pee.prof.procura_prof_iter import ProcuraProfIter
-from pee.prof.procura_prof_lim import ProcuraProfLim
-from pee.prof.procura_profundidade import ProcuraProfundidade
+from src.deposito.mod_prob.problema_plan_dep import ProblemaPlanDep
+from src.lib.pee.larg.procura_largura import ProcurarLargura
+from src.lib.pee.melhor_prim.procura_custo_unif import ProcuraCustoUnif
+from src.lib.pee.prof.procura_prof_iter import ProcuraProfIter
+from src.lib.pee.prof.procura_prof_lim import ProcuraProfLim
+from src.lib.pee.prof.procura_profundidade import ProcuraProfundidade
 
 
 class PlaneadorDeposito():

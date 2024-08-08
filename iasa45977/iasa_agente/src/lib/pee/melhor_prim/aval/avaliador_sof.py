@@ -7,7 +7,7 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from pee.melhor_prim.aval.avaliador_heur import AvaliadorHeur
+from src.lib.pee.melhor_prim.aval.avaliador_heur import AvaliadorHeur
 
 """
 Classe AvaliadorSof que herda da classe AvaliadorHeur.

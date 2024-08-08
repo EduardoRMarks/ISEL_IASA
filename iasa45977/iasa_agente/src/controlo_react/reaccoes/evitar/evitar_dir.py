@@ -8,8 +8,8 @@ Docente Paulo Vieira
 """
 
 
-from controlo_react.reaccoes.evitar.estimulo.estimulo_obst import EstimuloObst
-from ecr.reaccao import Reaccao
+from src.controlo_react.reaccoes.evitar.estimulo.estimulo_obst import EstimuloObst
+from src.lib.ecr.reaccao import Reaccao
 
 """
 Classe EvitarDir

@@ -7,7 +7,7 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from pee.mec_proc.fronteira.avaliador import Avaliador
+from src.lib.pee.mec_proc.fronteira.avaliador import Avaliador
 
 """
 Classe AvaliadorHeur que é um tipo de Avaliador. 

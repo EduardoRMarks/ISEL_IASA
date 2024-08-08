@@ -1,5 +1,4 @@
-from sae import Controlo
-from sae import Simulador
+from src.lib.sae import Controlo, Simulador
 
 
 # ______________________________________________________________________

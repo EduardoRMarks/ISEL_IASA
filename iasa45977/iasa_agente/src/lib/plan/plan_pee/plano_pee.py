@@ -7,7 +7,7 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from plan.plano import Plano
+from src.lib.plan.plano import Plano
 
 """
 Classe PlanoPEE que implementa a interface Plano, ou seja, é um tipo de plano baseado na

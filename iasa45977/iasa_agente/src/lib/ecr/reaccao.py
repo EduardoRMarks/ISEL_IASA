@@ -7,7 +7,7 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from ecr.comportamento import Comportamento
+from src.lib.ecr.comportamento import Comportamento
 
 """
 Classe Reaccao

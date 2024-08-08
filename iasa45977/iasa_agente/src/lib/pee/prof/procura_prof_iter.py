@@ -7,7 +7,7 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from pee.prof.procura_prof_lim import ProcuraProfLim
+from src.lib.pee.prof.procura_prof_lim import ProcuraProfLim
 
 """
 Classe ProcuraProfIter que extende da classe ProcuraProfLim.

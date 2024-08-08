@@ -6,8 +6,7 @@ Eduardo Marques 45977
 
 Docente Paulo Vieira
 """
-
-from pdm.mec_util import MecUtil
+from src.lib.pdm.mec_util import MecUtil
 
 """
 Classe PDM (Processos de Decisão de Markov). Este processo de decisão tem como objectivo

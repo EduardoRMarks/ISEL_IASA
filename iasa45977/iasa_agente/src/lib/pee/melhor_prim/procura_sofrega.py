@@ -7,8 +7,8 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from pee.melhor_prim.aval.avaliador_sof import AvaliadorSof
-from pee.melhor_prim.procura_informada import ProcuraInformada
+from src.lib.pee.melhor_prim.aval.avaliador_sof import AvaliadorSof
+from src.lib.pee.melhor_prim.procura_informada import ProcuraInformada
 
 """
 Classe ProcuraSofrega, é um tipo de procura informada.

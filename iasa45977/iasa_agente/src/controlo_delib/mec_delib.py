@@ -7,7 +7,7 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from sae.ambiente.elemento import Elemento
+from src.lib.sae.ambiente.elemento import Elemento
 
 """
 Classe MecDelib (mecanimos deliberativo).

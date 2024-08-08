@@ -7,8 +7,8 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from pee.melhor_prim.aval.avaliador_custo_unif import AvaliadorCustoUnif
-from pee.melhor_prim.procura_melhor_prim import ProcuraMelhorPrim
+from src.lib.pee.melhor_prim.aval.avaliador_custo_unif import AvaliadorCustoUnif
+from src.lib.pee.melhor_prim.procura_melhor_prim import ProcuraMelhorPrim
 
 """
 Classe ProcuraCustoUnif, é um tipo de Procura Melhor-Primeiro.

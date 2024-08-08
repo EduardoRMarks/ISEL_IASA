@@ -7,7 +7,7 @@ Eduardo Marques 45977
 Docente Paulo Vieira
 """
 
-from ecr.comportComp import ComportComp
+from src.lib.ecr.comportComp import ComportComp
 
 """
 Classe Hierarquia

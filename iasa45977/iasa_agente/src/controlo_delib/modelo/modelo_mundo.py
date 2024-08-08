@@ -8,10 +8,10 @@ Docente Paulo Vieira
 """
 
 from math import dist
-from controlo_delib.modelo.operador_mover import OperadorMover
-from mod.agente.estado_agente import EstadoAgente
-from plan.modelo.modelo_plan import ModeloPlan
-from sae.ambiente.direccao import Direccao
+from src.controlo_delib.modelo.operador_mover import OperadorMover
+from src.lib.mod.agente.estado_agente import EstadoAgente
+from src.lib.plan.modelo.modelo_plan import ModeloPlan
+from src.lib.sae.ambiente.direccao import Direccao
 
 """
 Classe ModeloMundo que representa o mundo, ou seja, o mapa, por onde o agente irá navegar,
